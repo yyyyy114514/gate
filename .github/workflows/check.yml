@@ -1,9 +1,7 @@
 name: VPN Gate Node Check
-# schedule re-registered by current account 2026-10-18
+# 定时触发已移除：改由 Cloudflare Worker 每 10 分钟调用 workflow_dispatch
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '7,37 * * * *'
 permissions:
   contents: read
   pages: write
