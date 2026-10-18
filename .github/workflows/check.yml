@@ -1,4 +1,5 @@
 name: VPN Gate Node Check
+# schedule re-registered by current account 2026-10-18
 on:
   workflow_dispatch:
   schedule:
